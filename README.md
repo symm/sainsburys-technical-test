@@ -66,4 +66,4 @@ Is responsible for taking a `ProductCollection` model and converting it to the d
 The implementation `ProductCollectionToJson` wraps PHP's built in `json_encode` function to generate
 JSON output for this task.
 
-![Diagram](https://bitbucket.org/gazj/sainsburys-scraper/raw/master/diagram.png)
+![Diagram](https://bitbucket.org/gazj/grocery-scraper/raw/master/diagram.png)
