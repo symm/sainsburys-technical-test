@@ -1,0 +1,28 @@
+{
+    "name": "symm/grocery-scraper",
+    "description": "A console app for scraping Sainsbury’s grocery site",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gareth Jones",
+            "email": "me@gazj.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "symfony/dom-crawler": "^3.0",
+        "symfony/css-selector": "^3.0",
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src"
+        }
+    }
+}
